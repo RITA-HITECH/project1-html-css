@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: opx;
+        padding: 0px;
+        background: url('img/abs-1850926_1920.jpg');
+        color:aliceblue;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .left{
+
+        
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+    left: 44px
+    }
+    .mid{
+       
+        display: block;
+        width:47%;
+        margin: 23px auto;
+        padding:2px 2px;
+
+    }
+    .right{
+       
+        position: absolute;
+        top: 38px;
+        right: 33px;
+display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: aliceblue;
+        padding:34px 23px;
+      
+        font-size: 22px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+    }
+    .left img{
+        width: 50px;
+        filter:invert(100%);
+    }
+    .left div{
+        text-align: center;
+        line-height: 19px;
+        font-size: 26px;
+    }
+    .btn{
+        margin:6px 9px;
+        background-color: black;
+        color:white;
+        padding:5px;
+        border:2px solid grey;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+    .btn :hover{
+        background-color: blue(39, 37, 37);
+    }
+    .container{
+        
+        margin: 89px 50px;
+    padding: 39px 21px;
+        width:37%;
+        display: block;
+        border-radius: 10px;
+    }
+    .form-group input{
+        text-align: center;
+        display:block;
+        width:304px;
+        margin:6px auto;
+        padding:3px;
+        border-radius: 10px;
+    }
+    .container button{
+        display: block;
+        margin: 21px auto;
+        width:23%;
+    }
+    .container h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/weight-1399281_1280.png" alt="">
+            <div>Rita Fitness</div>
+           
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness center</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+
+
+        </div>
+        <div class="right">
+           <button class="btn">Call us now</button>
+           <button class="btn">Email us</button>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of haryana now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+            <input type="text" name="" placeholder="Enter your age">
+            <input type="text" name="" placeholder="Enter your gender">
+            <input type="text" name="" placeholder="Enter your locality">
+            </div>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+    
+</body>
+</html>
